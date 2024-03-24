@@ -1,0 +1,5 @@
+Normalmente, uma tabela tem o seu nome todo com letra minuscula e sem acentos ou caracteres especiais e sempre no prural.
+PRa conectar ao banco de dados que ja foi previamente criado, utilizaremos o PDO. É a forma mais comum de conexão com o banco de dados hoje.
+PDO é uma class pré definida e sua linha de comando é $pdo = new PDO("mysql:dbname=test;host=localhost", "root", "") sendo que bdname é o nome do banco de dados, "root" é o nome do usuario e "" é a senha, que nesse caso é em branco.
+CRUD (Create, Read, Update, Delete) são os principais comando que voce usa em um sistema. 
+O conceito DAO (Data Access Object) 
